@@ -1,0 +1,76 @@
+@import url(../fonts/font.css);
+
+
+/* header start */
+
+.page-header {
+    position: sticky;
+    top: 0;
+    padding-block: 20px;
+    z-index: 1000;
+   max-width: 100%;
+    background:linear-gradient(rgba(173, 255, 188, 0.9),rgba(233, 255, 243, 1) ) ;
+    box-sizing: border-box; 
+
+}
+.content {
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 185.21px;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+
+.header-nav_link {
+    color: #1B2F45;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 23px 14px;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.header-nav_link:hover {
+    color: #00A650;
+    
+}
+
+.lang{
+    width: 40px;
+    display: flex;align-items: center;
+  }
+  .lang-img{
+    width: 100%;
+  }
+
+.burger-menu {
+    width: 30px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: none;
+}
+
+.burger-menu div {
+    width: 100%;
+    display: block;
+    height: 2px;
+    background-color: #00A650;
+}
