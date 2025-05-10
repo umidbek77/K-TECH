@@ -1,0 +1,91 @@
+.contact-info {
+  width: 100%;
+  background-color: rgb(0, 165, 81);
+  border-radius: 16px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 100px; 
+  position: relative;
+}
+
+.contact-hey {
+color: rgb(255, 255, 255);
+font-family: Outfit;
+font-size: 32px;
+font-weight: 500;
+line-height: 40px;
+text-align: center;
+}
+
+.contact-title {
+color: rgb(255, 255, 255);
+font-family: Outfit;
+font-size: 64px;
+font-weight: 500;
+line-height: 81px;
+text-align: left;
+}
+
+.form-container {
+  width: 85%;
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+  background-color: #f0f1f1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 25px 45px;
+  border-radius: 16px;
+  align-items: center;
+  position: relative;
+  bottom: 63px; /* pastga tushirilgan */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #1b2f45;
+}
+
+input {
+  width: 250px;
+  padding: 16px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4caf50;
+}
+
+.contact-demo-btn {
+  width: 200px;
+  background: #00695b;
+  border: none;
+  color: white;
+  padding: 14px 24px;
+  margin-bottom: -40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contact-demo-btn:hover {
+  opacity: 0.9;
+}

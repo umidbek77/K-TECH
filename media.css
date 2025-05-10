@@ -1,16 +1,18 @@
 /* RESPONSIVE START */
 @media (max-width:1440px) {
-  .image-caption{
+  .image-caption {
     font-size: 17px;
   }
-  
+
 }
+
 @media (max-width:1410px) {
   .hero h1 {
     font-size: 70px;
 
   }
-  .image-caption{
+
+  .image-caption {
     padding: 14px 0px;
     max-width: 50%;
     font-size: 18px;
@@ -18,7 +20,61 @@
   }
 
 
-  
+  .video-block {
+    flex: 1 1 280px;
+    /* yoki width: 30% */
+    max-width: 25%;
+    min-width: 250px;
+
+  }
+
+  .info-cards-container {
+    flex: 2 1 550px;
+    /* yoki width: 60% */
+    max-width: 63%;
+    min-width: 300px;
+  }
+
+  .video-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+
+  }
+
+  .info-card {
+    flex: 1;
+    position: relative;
+  }
+
+  .info-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  .info-badge {
+    left: 18px;
+    padding: 8px 18px 8px 8px;
+    max-width: 90%;
+  }
+
+  .info-badge img {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+  }
+
+  .info-badge-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+  }
+
+
 }
 
 @media (max-width:1320px) {
@@ -26,7 +82,7 @@
     font-size: 60px;
   }
 
-  .image-caption{
+  .image-caption {
     font-size: 13px;
   }
 
@@ -34,11 +90,11 @@
     margin-right: 60px;
   }
 
-  .problems-title{
-  font-size: 60px;
+  .problems-title {
+    font-size: 60px;
   }
 
-  .smart-title{
+  .smart-title {
     font-size: 60px;
     text-align: center;
     margin-bottom: 50px;
@@ -48,7 +104,7 @@
     padding: 25px 18px 25px 18px;
     width: 630px;
   }
-  
+
   .solution-logo {
     width: 200px;
   }
@@ -60,11 +116,48 @@
   .solution-name span {
     font-size: 37px;
   }
-  
+
   .solution-description {
     padding: 20px 25px;
     font-size: 25px;
   }
+
+    .contact-info {
+    padding: 80px 90px !important; 
+  }
+
+  .form-container {
+    width: 85% !important;
+    padding: 25px 45px !important;
+    bottom: 63px !important; /* pastga tushirilgan */
+  }
+
+
+  .form-group {
+    width: 240px !important;
+  }
+
+  label {
+    margin-bottom: 6px !important;
+    font-size: 22px !important;
+  }
+
+  input {
+    width: 240px !important;
+  }
+
+  .contact-demo-btn {
+    font-size: 15px !important;
+  }
+
+  .contact-hey {
+  font-size: 30px !important;
+  }
+
+  .contact-title {
+  font-size: 58px !important;
+  }
+
 
 }
 
@@ -79,20 +172,21 @@
     margin-right: 50px;
   }
 
-  .problems-title{
-  font-size: 55px;
+  .problems-title {
+    font-size: 55px;
   }
-  .smart-title{
+
+  .smart-title {
     font-size: 55px;
     margin-bottom: 40px;
   }
-  
+
 
 
   .problem-item {
     width: 580px;
   }
-  
+
   .solution-logo {
     width: 180px;
   }
@@ -104,86 +198,196 @@
   .solution-name span {
     font-size: 35px;
   }
-  
+
   .solution-description {
     padding: 18px 23px;
     font-size: 23px;
   }
+
+  .contact-info {
+  padding: 70px 80px !important; 
+}
+
+.form-container {
+  width: 80% !important;
+  padding: 20px 40px !important;
+  bottom: 60px !important; /* pastga tushirilgan */
+}
+
+
+.form-group {
+  width: 230px !important;
+}
+
+label {
+  margin-bottom: 4px !important;
+  font-size: 18px !important;
+}
+
+input {
+  width: 220px !important;
+  height: 40px !important;
+}
+
+.contact-demo-btn {
+  font-size: 13px !important;
+  padding: 10px 18px !important;
+  width: 100px !important;
   
+  margin-bottom: -30px !important;
+}
+
+
+.contact-hey {
+font-size: 28px !important;
+}
+
+.contact-title {
+font-size: 55px !important;
+}
+
 }
 
 
 @media (max-width:1100px) {
-    .logo {
-        width: 145.21px;
-    }
+  .logo {
+    width: 145.21px;
+  }
 
-    .header-nav_link {
-        font-size: 16px;
-    }
+  .header-nav_link {
+    font-size: 16px;
+  }
 
-    .lang{
-        width: 33px;
-      }
+  .lang {
+    width: 33px;
+  }
 
-      .buttons {
-        margin-top: 40px;
-      }
-      
-      .btn {
-        width: 275px;
-        padding: 25px 15px;
-        border-radius: 13px;
-        font-size: 14px;
-      }
+  .buttons {
+    margin-top: 40px;
+  }
 
-      .problems-container {
-        margin-right: 40px;
-      }
-    
-      .problem-item {
-        width: 550px;
-      }
-      
-      .solution-logo {
-        width: 170px;
-      }
-    
-      .solution-name {
-        font-size: 38px;
-      }
-    
-      .solution-name span {
-        font-size: 30px;
-      }
-      
-      .solution-description {
-        padding: 15px 20px;
-        font-size: 20px;
-      }
-      .features-section {
-        margin-bottom: 30px;
-      }
+  .btn {
+    width: 275px;
+    padding: 25px 15px;
+    border-radius: 13px;
+    font-size: 14px;
+  }
 
-      .features-content {
-        padding-block: 0px;
-        gap: 20px;
-      }
+  .problems-container {
+    margin-right: 40px;
+  }
+
+  .problem-item {
+    width: 550px;
+  }
+
+  .solution-logo {
+    width: 170px;
+  }
+
+  .solution-name {
+    font-size: 38px;
+  }
+
+  .solution-name span {
+    font-size: 30px;
+  }
+
+  .solution-description {
+    padding: 15px 20px;
+    font-size: 20px;
+  }
+
+  .features-section {
+    margin-bottom: 30px;
+  }
+
+  .features-content {
+    padding-block: 0px;
+    gap: 20px;
+  }
+
+  .clients-btn {
+    padding: 20px;
+    font-size: 19px;
+  }
+
+  .clients-quote{
+    width: 46px;
+  }
+
+  .clients-user img {
+  width: 60px;
+  height: 60px;
+}
+
+
+  .contact-info {
+  padding: 50px 60px !important; 
+}
+
+.form-container {
+  width: 75% !important;
+  padding: 16px 30px !important;
+  bottom: 50px !important; /* pastga tushirilgan */
+}
+
+
+/* .form-group {
+  width: 200px !important;
+} */
+
+label {
+  margin-bottom: 4px !important;
+  font-size: 15px !important;
+}
+
+input {
+  width: 180px !important;
+}
+
+input::placeholder {
+  font-size: 13px;
+}
+
+.contact-demo-btn {
+  font-size: 10px !important;
+  padding: 8px 12px !important;
+  width: 90px !important;
+  
+  margin-bottom: -20px !important;
+}
+
+
+.contact-hey {
+font-size: 24px !important;
+}
+
+.contact-title {
+font-size: 45px !important;
+}
+
 }
 
 @media (max-width:1010px) {
-  .image-caption{
+
+  .page-header{
+     padding-block: 10px;
+  }
+
+  .image-caption {
     font-size: 14px;
   }
-  .hero{
+
+  .hero {
     padding: 40px 20px;
   }
 
-  
+
   .buttons {
     margin-top: 30px;
   }
-  
+
   .btn {
     width: 255px;
     padding: 20px 10px;
@@ -198,13 +402,13 @@
     width: 490px;
     font-size: 18px;
   }
-  
+
   .solution-description {
     padding: 10px 15px;
     font-size: 18px;
   }
 
-  .card{
+  .card {
     padding: 20px;
   }
 
@@ -212,7 +416,7 @@
     margin-bottom: 5px;
   }
 
-  .smart-icon img{
+  .smart-icon img {
     width: 35px;
   }
 
@@ -221,13 +425,15 @@
     line-height: 23px;
     padding-bottom: 10px;
   }
-  
+
   .card p {
     font-size: 12px;
   }
+
   .features-section ul li {
-      font-size: 12px;
+    font-size: 12px;
   }
+
   .features-section {
     margin-bottom: 20px;
   }
@@ -237,7 +443,7 @@
     font-size: 12px;
     width: 255px;
 
- }
+  }
 }
 
 @media (max-width:970px) {
@@ -245,129 +451,186 @@
     font-size: 40px;
     margin-bottom: 30px;
   }
-  .image-caption{
+
+  .image-caption {
     font-size: 10px;
   }
 
-
-
+  .clients-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 }
 
+.clients-card{
+  width: 70%;
+}
+
+
+.form-container{
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px 30px !important;
+}
+
+.form-group{
+  width: 93% !important;
+  align-items: center;
+}
+
+input{
+  width: 85% !important;
+}
+
+.contact-demo-btn{
+  width: 150px !important;
+  padding: 15px 24px !important;
+  font-size: 15px;
+}
+
+}
+
 @media (max-width:920px) {
-      .logo {
-          width: 130px;
-      }
-  
-      .header-nav_link {
-          font-size: 13px;
-      }
-  
-      .lang{
-          width: 28px;
-        }
-
-        .hero{
-          padding: 30px 20px;
-        }
-
-        
-      .buttons {
-        margin-top: 20px;
-      }
-      
-      .btn {
-        width: 225px;
-        padding: 17px 8px;
-        border-radius: 8px;
-        font-size: 12px;
-      }
-
-      .problems-container {
-        margin-right: 20px;
-      }
-    
-      .problem-item {
-        width: 470px;
-      }
-      
-      .solution-logo {
-        width: 160px;
-      }
-    
-      .solution-name {
-        font-size: 30px;
-      }
-    
-      .solution-name span {
-        font-size: 25px;
-      }
-      
-      .solution-description {
-        padding: 8px 10px;
-        font-size: 15px;
-      }
-    
-      
+  .logo {
+    width: 130px;
   }
 
-@media(max-width:830px){
-    .logo {
-        width: 120px;
-    }
+  .header-nav_link {
+    font-size: 13px;
+  }
 
-    .header-nav_link {
-        font-size: 10px;
-    }
+  .lang {
+    width: 28px;
+  }
 
-    .lang{
-        width: 25px;
-      }
-
-      .problems-container{
-        flex-direction: column;
-        gap: 30px;
-        margin: 0 auto;
-      }
-
-      .vertical-line{
-        display: none;
-      }
-
-      .problems{
-        padding-left: 0px;
-      }
-
-      .problems-title{
-        font-size: 45px;
-        margin-block: 30px;
-      }
+  .hero {
+    padding: 30px 20px;
+  }
 
 
+  .buttons {
+    margin-top: 20px;
+  }
 
-      .smart-title{
-        font-size: 45px;
-        margin-bottom: 30px;
-      }
-      
-     .smart-section{
-      padding-block: 0px;
-     }
+  .btn {
+    width: 225px;
+    padding: 17px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
 
-     .features-title {
-      font-size: 45px;
-    }
-    
-    .features-section {
-      margin-bottom: 15px;
-    }
-    
-    .features-section h3 {
-      font-size: 20px;
-      margin-bottom: 12px;
-  
-    }
-    
+  .problems-container {
+    margin-right: 20px;
+  }
+
+  .problem-item {
+    width: 470px;
+  }
+
+  .solution-logo {
+    width: 160px;
+  }
+
+  .solution-name {
+    font-size: 30px;
+  }
+
+  .solution-name span {
+    font-size: 25px;
+  }
+
+  .solution-description {
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+
+  .contact-title{
+    font-size: 36px !important;
+  }
+
+  .contact-hey{
+    font-size: 17px !important;
+    line-height: 0px !important
+  }
+
+ 
+
+
+
+}
+
+@media(max-width:830px) {
+  .logo {
+    width: 120px;
+  }
+
+  .header-nav_link {
+    font-size: 10px;
+  }
+
+  .lang {
+    width: 25px;
+  }
+
+  .problems-container {
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .problems {
+    padding-left: 0px;
+  }
+
+  .problems-title {
+    font-size: 45px;
+    margin-block: 30px;
+  }
+
+  .problems-section{
+  margin-bottom: 40px;
+}
+
+
+
+  .smart-title {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  .smart-section {
+    padding-block: 0px;
+  }
+
+  .features-title {
+    font-size: 45px;
+  }
+
+  .clients-title {
+    font-size: 45px;
+  }
+
+  .features-section {
+    margin-bottom: 15px;
+  }
+
+  .features-section h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+
+  }
+
+  .clients {
+  margin: 0px auto 15px;
+  padding:  15px;
+}
+
+
 }
 
 @media (max-width:789px) {
@@ -375,242 +638,381 @@
     font-size: 35px;
   }
 
-  
+
   .buttons {
     margin-top: 15px;
   }
-  
+
   .btn {
     width: 195px;
     padding: 14px 7px;
     font-size: 10px;
   }
 
+    .clients-btn {
+    padding: 18px;
+    font-size: 16px;
+  }
+
+  .clients-quote{
+    width: 40px;
+  }
+
+  .clients-user img {
+  width: 50px;
+  height: 50px;
+}
 
 
-  
+
+
 }
 
 
 @media (max-width: 768px) {
-    .content {
-      padding: 10px;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    .header-nav {
-      position: absolute;
-      top: 70px;
-      left: 0;
-      width: 100%;
-      flex-direction: column;
-      background-color: white;
-      display: none;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-      z-index: 1000;
-    }
-  
-    .header-nav.show {
-      display: flex;
-    }
-  
-    .header-nav_link {
-      width: 100%;
-      padding: 15px;
-      text-align: center;
-      border-top: 1px solid #ddd;
-    }
-  
-    .burger-menu {
-      display: flex;
-      cursor: pointer;
-    }
+  .content {
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  @media (max-width:700px) {
-    .hero h1 {
-      font-size: 30px;
-      margin-bottom: 20px;
-    }
-    .image-caption{
-      font-size: 10px;
-      bottom: -15px;
-    }
+  .header-nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+    display: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
 
-    .hero{
-      padding: 10px;
-    }
+  .header-nav.show {
+    display: flex;
+  }
 
-    .hero-image-wrapper{
-      border-radius: 15px;
-      object-fit: scale-down;
-    }
+  .header-nav_link {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
 
-    
-    .btn {
-      width: 165px;
-      padding: 10px 5px;
-    }
-    .problems-title{
-      margin-block: 20px;
-    }
-
-    .card-container {
-      gap: 18px;
-      margin-bottom:  25px;
-    }
-    .card-content{
-      margin-block: 10px;
-    }
-
-    .features-container {
-      align-items: center;
-      flex-direction: column;
-      margin-bottom: 85px;
-      gap: 75px;
-    }
-  
+  .burger-menu {
+    display: flex;
+    cursor: pointer;
   }
 
   
-  @media (max-width:620px) {
-    .hero h1 {
-      font-size: 24px;
-      margin-bottom: 15px;
-    }
-    .image-caption{
-      font-size: 8px;
-    }
-    
-    .problems-title{
-      font-size: 40px;
-      margin-block: 15px;
-    }
-    .smart-title{
-      font-size: 40px;
-    }
-    
-    .features-title {
-      font-size: 40px;
-      margin-bottom: 25px;
-    }
-    
-    
-  
-    .problem-item {
-      width: 450px;
-    }
-    
+.clients-text {
+  font-size: 13px;
+}
+
+  .contact-title{
+    font-size: 30px !important;
+    line-height: 20px !important;
+  }
+
+  .contact-hey{
+    line-height: 30px !important;
+  }
+
+  .form-container{
+    bottom: 20px !important;
+  }
+
+  .contact-info{
+    padding: 30px 40px !important;
+  }
+
+
+ label {
+  margin-bottom: 4px !important;
+  font-size: 11px !important;
+}
+
+input{
+  padding: 10px 8px !important;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.form-container{
+  padding: 15px 20px 25px !important;
+  gap: 10px !important;
+  margin-bottom: 45px !important;
+}
+
+
+
+}
+
+@media (max-width:700px) {
+
+   .page-header{
+     padding-block: 8px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .image-caption {
+    font-size: 10px;
+    bottom: -15px;
+  }
+
+  .hero {
+    padding: 10px;
+  }
+
+  .hero-image-wrapper {
+    border-radius: 15px;
+    object-fit: scale-down;
+  }
+
+
+  .btn {
+    width: 165px;
+    padding: 10px 5px;
+  }
+
+  .problems-title {
+    margin-block: 20px;
+  }
+
+  .card-container {
+    gap: 18px;
+    margin-bottom: 25px;
+  }
+
+  .card-content {
+    margin-block: 10px;
+  }
+
+  .features-container {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+    gap: 75px;
+  }
+  .features-section-container{
+    padding-block: 10px;
+  }
+
+ .clients-header {
+  margin-bottom: 10px;
+}
+
+}
+
+
+@media (max-width:620px) {
+  .hero h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .image-caption {
+    font-size: 8px;
+  }
+
+  .problems-title {
+    font-size: 40px;
+    margin-block: 15px;
+  }
+
+  .smart-title {
+    font-size: 40px;
+  }
+
+  .features-title {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+
+
+
+  .problem-item {
+    width: 450px;
+  }
+
   .solution-description {
-      font-size: 20px;
-    }
-
-    .card{
-      padding: 10px;
-    }
-  
-    .smart-icon {
-      margin-bottom: 3px;
-    }
-  
-    .smart-icon img{
-      width: 27px;
-    }
-  
-    .card h3 {
-      font-size: 15px;
-      padding-bottom: 8px;
-    }
-    
-    .card p {
-      font-size: 10px;
-    }
-    .features-section ul li {
-        font-size: 10px;
-    }
-    
-    .demo-button button {
-      padding: 24px 13px;
-      width: 205px;
-  
-    
+    font-size: 20px;
   }
 
-  }
-  
-  @media (max-width:510px) {
-    .hero h1 {
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-
-    .image-caption{
-      font-size: 7px;
-      bottom: -13px;
-    }
-
-    .btn {
-      width: 145px;
-      font-size: 9px;
-    }
-
-    .problems-title{
-      font-size: 30px;
-      margin-block: 10px;
-    }
-
-    .problem-item {
-      width: 420px;
-      font-size:15px ;
-    }
-
-    .smart-title{
-      font-size: 30px;
-      margin-bottom: 25px;
-    }
-
-    .features-title {
-      font-size: 30px;
-      margin-bottom: 25px;
-    }
-    
-    .features-section {
-      margin-bottom: 10px;
-    }
-    
-    .features-section h3 {
-      font-size: 15px;
-      margin-bottom: 10px;
-    }
-      
+  .card {
+    padding: 10px;
   }
 
-  @media (max-width:480px) {
-    .btn {
-      width: 105px;
-    }
-    .problems-title{
-      margin-block: 0px;
-    }
-    
+  .smart-icon {
+    margin-bottom: 3px;
   }
 
-  @media (max-width:450px) {
+  .smart-icon img {
+    width: 27px;
+  }
 
-    .problem-item{
-      width: 380px;
-      font-size: 13px;
-      padding: 18px 13px;
-    }
-    .solution-logo{
-      width: 130px;
-    }
+  .card h3 {
+    font-size: 15px;
+    padding-bottom: 8px;
+  }
 
-    .demo-button button {
-      padding: 19px 10px;
-      width: 190px;
+  .card p {
+    font-size: 10px;
+  }
+
+  .features-section ul li {
+    font-size: 10px;
+  }
+
+  .demo-button button {
+    padding: 24px 13px;
+    width: 205px;
+  }
+
+  .clients-btn {
+    padding: 14px;
+    font-size: 13px;
+  }
+
+  .clients-quote{
+    width: 30px;
+  }
+
+  .clients-user img {
+  width: 40px;
+  height: 40px;
+}
+
+.clients-text {
+  font-size: 11px;
+}
+
+ 
+
+
+input{
+  width: 95% !important;
+}
+
+
+.form-container{
+  padding-inline: 15px !important;
+    bottom: -20px !important;
+  gap: 10px !important;
+}
+
+
+  .contact-title{
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+
+  .contact-hey{
+    line-height: 10px !important;
+    margin-bottom: 20px;
+  }
+
+
+  .contact-info{
+    padding: 20px 30px !important;
+  }
+
+
+
+}
+
+@media (max-width:510px) {
+  .hero h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .image-caption {
+    font-size: 7px;
+    bottom: -13px;
+  }
+
+  .btn {
+    width: 145px;
+    font-size: 9px;
+  }
+
+  .problems-section{
+  margin-bottom: 30px;
+}
+
+  .problems-title {
+    font-size: 30px;
+    margin-block: 10px;
+  }
+
+  .problem-item {
+    width: 420px;
+    font-size: 15px;
+  }
+
+  .smart-title {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .features-title {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .features-section {
+    margin-bottom: 10px;
+  }
+
+  .features-section h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+
+
+}
+
+@media (max-width:480px) {
+  .btn {
+    width: 105px;
+  }
+
+  .problems-title {
+    margin-block: 0px;
+  }
+
+
+  .clients-quote{
+    width: 25px;
+  }
+
+
+}
+
+@media (max-width:450px) {
+
+  .problem-item {
+    width: 380px;
+    font-size: 13px;
+    padding: 18px 13px;
+  }
+
+  .solution-logo {
+    width: 130px;
+  }
+
+  .demo-button button {
+    padding: 19px 10px;
+    width: 190px;
   }
 
 
@@ -623,13 +1025,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* oraliq uchun */
+    gap: 20px;
+    /* oraliq uchun */
   }
 
   .features-left-imgs .features-overlay-img {
     position: static;
     transform: none;
-    width: 100%; /* asosiysi - ikkinchi rasm ham to‘liq ko‘rsin */
+    width: 100%;
+    /* asosiysi - ikkinchi rasm ham to‘liq ko‘rsin */
     box-shadow: none;
     margin-top: 10px;
   }
@@ -637,115 +1041,184 @@
   .features-left-imgs img {
     width: 100%;
   }
-    
-  }
-    
-  @media (max-width:413px) {
-    .hero h1 {
-      font-size: 16px;
-      margin-bottom: 8px;
-    }
 
-    .image-caption{
-      font-size: 5.8px;
-      /* bottom: -13px; */
-    }
-    .btn {
-      width: 95px;
-      padding: 7px 3px;
-      font-size: 7px;
-    }
-
-    .problem-item{
-      width: 340px;
-      font-size: 10px;
-      padding: 15px 10px;
-    }
-    .solution-logo{
-      width: 100px;
-    }
-
-    .problems-title{
-      font-size: 25px;
-    }
-
-    .smart-title{
-      font-size: 25px;
-      margin-bottom: 5px;
-    }
-
-    .features-title {
-      font-size: 25px;
-      margin-bottom: 20px;
-    }
-    
-    .features-section {
-      margin-bottom: 0px;
-    }
-
-
-        
-    
+  .clients-text {
+  font-size: 9px;
+}
+  .clients-btn {
+    padding: 12px;
+    font-size: 10px;
   }
 
-
-  @media (max-width:360px) {
-    .problem-item{
-      width: 300px;
-      padding: 10px 8px;
-    }
-    .solution-logo{
-      width: 93px;
-    }
-
-    .problems-title{
-      font-size: 23px;
-    }
-
-    .smart-title{
-      font-size: 22.7px;
-    }  
-
-    .features-title {
-      font-size: 22.7px;
-      margin-bottom: 18px;
-    }
-    
-  
-
-    .solution-description{
-      font-size: 15px;
-    }
-    .solution-name {
-      font-size: 27px;
-    }
-  
-    .solution-name span {
-      font-size: 23px;
-    }
-
-    .card-container {
-      gap: 15px;
-      margin-bottom:  18px;
-    }
-    .card-content{
-      margin-block: 8px;
-    }
-
-    .demo-button button {
-      padding: 15px 8px;
-      width: 17 0px;
+  .clients-quote{
+    width: 30px;
   }
 
-  @media (max-width: 360px) {
+  .clients-user img {
+  width: 35px;
+  height: 35px;
+}
+
+.clients-user-info strong {
+  font-size: 13px;
+}
+
+.clients-user-info small {
+  font-size: 10px;
+}
+
+.contact-title{
+  font-size: 20px !important;
+}
+.contact-hey{
+  font-size: 15px !important;
+  margin-bottom: 0 !important ;
+}
+
+input{
+  width: 100% !important;
+}
+
+
+}
+
+@media (max-width:413px) {
+
+   .page-header{
+     padding-block: 5px;
+  }
+  .hero h1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .image-caption {
+    font-size: 5.8px;
+    /* bottom: -13px; */
+  }
+
+  .btn {
+    width: 95px;
+    padding: 7px 3px;
+    font-size: 7px;
+  }
+
+  .problem-item {
+    width: 340px;
+    font-size: 10px;
+    padding: 15px 10px;
+  }
+
+  .solution-logo {
+    width: 100px;
+  }
+
+  .problems-title {
+    font-size: 25px;
+  }
+
+  .smart-title {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+
+  .features-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .features-section {
+    margin-bottom: 0px;
+  }
+
+  .contact-title{
+  line-height: 28px !important;
+  margin-top: 10px !important;
+}
+
+.contact-demo-btn{
+  padding: 10px 20px !important;
+}
+
+
+
+
+
+
+}
+
+
+@media (max-width:360px) {
+  .problem-item {
+    width: 300px;
+    padding: 10px 8px;
+  }
+
+  .solution-logo {
+    width: 93px;
+  }
+
+  .problems-title {
+    font-size: 23px;
+  }
+
+  .problems-section{
+  margin-bottom: 22px;
+}
+
+  .smart-title {
+    font-size: 22.7px;
+  }
+
+  .features-title {
+    font-size: 22.7px;
+    margin-bottom: 18px;
+  }
+
+
+
+  .solution-description {
+    font-size: 15px;
+  }
+
+  .solution-name {
+    font-size: 27px;
+  }
+
+  .solution-name span {
+    font-size: 23px;
+  }
+
+  .card-container {
+    gap: 15px;
+    margin-bottom: 18px;
+  }
+
+  .card-content {
+    margin-block: 8px;
+  }
+
+  .demo-button button {
+    padding: 15px 8px;
+    width: 17 0px;
+  }
+
     .features-left-imgs img,
     .features-left-imgs .features-overlay-img {
-      width: 85%; 
+      width: 85%;
       align-items: center;
- 
+
     }
-  
-  }
-   
+
+      .image-caption {
+          display: -webkit-box;
+  -webkit-line-clamp: 2;       /* Nechta qatorda ko‘rsatish */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 5.5px;
   }
 
+  
+
+}
