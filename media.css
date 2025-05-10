@@ -369,6 +369,8 @@ font-size: 45px !important;
 
 }
 
+
+
 @media (max-width:1010px) {
 
   .page-header{
@@ -748,6 +750,11 @@ input::placeholder {
 }
 
 
+.footer{
+  padding: 20px 20px !important;
+}
+
+
 
 }
 
@@ -807,6 +814,11 @@ input::placeholder {
 
  .clients-header {
   margin-bottom: 10px;
+}
+
+.logo-title, .footer-column{
+margin-inline: 0px !important;
+padding: 10px 20px !important;
 }
 
 }
@@ -925,6 +937,39 @@ input{
   }
 
 
+.footer-logo-img {
+  width: 150px !important;
+  margin-bottom: 15px !important;
+}
+
+
+.logo-title h2 span {
+  font-size: 0.5em !important;
+}
+
+.logo-title p {
+  font-size: 13px;
+}
+
+.social-icons{
+margin-top: 10px !important;
+}
+
+.fab img {
+  width: 28px !important;
+  margin-top: 8px !important;
+}
+
+.fabicon {
+  margin-left: 8px !important;
+}
+
+.footer-column, .logo-title {
+  padding: 8px 15px;
+  max-width: 200px !important;
+}
+
+
 
 }
 
@@ -975,6 +1020,15 @@ input{
   .features-section h3 {
     font-size: 15px;
     margin-bottom: 10px;
+  }
+
+  .footer-container, .footer-logo{
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .footer-column, .logo-title{
+    margin: 0px !important;
   }
 
 
