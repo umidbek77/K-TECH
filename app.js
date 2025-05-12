@@ -22,7 +22,7 @@ const translations = {
   },
 };
 
-// Tilni almashtirish funksiyasi
+// Til va Icon almashtirish
 function changeLanguage(lang) {
   const elements = document.querySelectorAll("[data-lang-key]");
   elements.forEach((el) => {
@@ -30,7 +30,15 @@ function changeLanguage(lang) {
     el.textContent = translations[lang][key];
   });
 
-  // Tanlangan tilni saqlash (localStorage orqali)
+  // Icon almashtirish
+  const langIcon = document.querySelector(".lang-img");
+  if (lang === "en") {
+    langIcon.src = "./images/us.svg"; // Ingliz tili uchun flag
+  } else if (lang === "uz") {
+    langIcon.src = "./images/uz.svg"; // O'zbek tili uchun flag
+  }
+
+  // Tanlangan tilni localStorage'da saqlash
   localStorage.setItem("lang", lang);
   document.querySelector(".lang").classList.remove("active");
 }
