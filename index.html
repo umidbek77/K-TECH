@@ -20,30 +20,35 @@
 <body>
   <header class="page-header">
     <div class="container">
-      <div class="content">
-        <a href="#!" class="logo">
-          <img src="./images/logo.svg.svg" class="logo-img" alt="nike-logo-img" />
-        </a>
-        <nav class="header-nav">
-          <a href="#!" class="header-nav_link">Bosh sahifa</a>
-          <a href="#!" class="header-nav_link">Biz haqimizda</a>
-          <a href="#!" class="header-nav_link">Loyihalar</a>
-          <a href="#!" class="header-nav_link">Xizmatlar</a>
-          <a href="#!" class="header-nav_link">Bog'lanish</a>
-          <div class="lang">
-            <img class="lang-img" src="./images/lang.svg" alt="English" />
-          </div>
-        </nav>
+        <div class="content">
+            <a href="#!" class="logo">
+                <img src="./images/logo.svg.svg" class="logo-img" alt="nike-logo-img" />
+            </a>
+            <nav class="header-nav">
+                <a href="#!" class="header-nav_link" data-lang-key="home">Bosh sahifa</a>
+                <a href="#!" class="header-nav_link" data-lang-key="about">Biz haqimizda</a>
+                <a href="#!" class="header-nav_link" data-lang-key="projects">Loyihalar</a>
+                <a href="#!" class="header-nav_link" data-lang-key="services">Xizmatlar</a>
+                <a href="#!" class="header-nav_link" data-lang-key="contact">Bog'lanish</a>
 
+                <div class="lang">
+                    <img class="lang-img" src="./images/lang.svg" alt="Language" onclick="toggleDropdown()" />
+                    <div class="lang-dropdown">
+                        <a href="#!" onclick="changeLanguage('en')">EN</a>
+                        <a href="#!" onclick="changeLanguage('uz')">UZ</a>
+                    </div>
+                </div>
+            </nav>
 
-        <div class="burger-menu">
-          <div></div>
-          <div></div>
-          <div></div>
+            <div class="burger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
-      </div>
     </div>
-  </header>
+</header>
+
 
 
   <main>
@@ -358,6 +363,8 @@
 
 
   </main>
+
+  <script src="/app.js"></script>
 </body>
 
 </html>
